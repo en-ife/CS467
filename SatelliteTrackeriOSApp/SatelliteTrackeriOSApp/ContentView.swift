@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-// HOME PAGE
+// HOME PAGE - ICONS
 struct ContentView: View {
     var body: some View {
         TabView {

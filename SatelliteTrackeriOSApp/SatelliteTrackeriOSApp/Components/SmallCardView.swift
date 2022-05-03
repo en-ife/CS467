@@ -1,16 +1,13 @@
 //
-//  CardView.swift
+//  SmallCardView.swift
 //  SatelliteTrackeriOSApp
 //
-//  Created by En Kelly on 4/25/22.
+//  Created by En Kelly on 5/2/22.
 //
 
 import SwiftUI
-import CoreLocation
 
-// CARD COMPONENT
-struct CardView: View {
-    // set var "item" to retrieve data in our Data view
+struct SmallCardView : View {
     var item: Item = items[0]
     
     var body: some View {
@@ -19,23 +16,21 @@ struct CardView: View {
             Image(item.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(height:300)
+                .frame(height:99)
                 .frame(maxWidth: .infinity)
             //Text("Satellite tracker")
             Text(item.title)
-                .font(.title)
+                .font(.headline)
                 .fontWeight(.bold)
                 .multilineTextAlignment(.leading)
                 .blendMode(.overlay)
             //Text("A home guide to finding satellites in your area.")
             Text(item.text)
                 .opacity(0.7)
-            //Text("Go HAM radio operators!")
-                .opacity(0.7)
         }
         .foregroundColor(.white)
-        .padding(.all)
-        .frame(width: 350.0, height: 500.0)
+        .padding(16)
+        .frame(height: 222.0)
         .background(LinearGradient(
             colors: [.indigo, .purple],
             startPoint: .leading,
@@ -44,9 +39,9 @@ struct CardView: View {
     }
 }
 
-
-struct CardView_Previews: PreviewProvider {
+struct SmallCardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView()
+        SmallCardView()
     }
 }
+

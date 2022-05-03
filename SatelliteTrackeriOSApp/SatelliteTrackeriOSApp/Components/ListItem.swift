@@ -20,6 +20,9 @@ struct ListItem: View {
                 .background(Color.black)
                 // make icon circular
                 .mask(Circle())
+                .onTapGesture {
+                    SatTracker.test()
+                }
             VStack(alignment: .leading, spacing: 4.0) {
                 Text("Satellite __")
                 Text("Uplink: __ ")

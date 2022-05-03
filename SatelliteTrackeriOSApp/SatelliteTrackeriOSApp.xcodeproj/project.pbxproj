@@ -20,6 +20,8 @@
 		2F2DAB152817D75C00FFE296 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB142817D75C00FFE296 /* ListItem.swift */; };
 		2F2DAB1C28192D0E00FFE296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1B28192D0E00FFE296 /* ContentView.swift */; };
 		2F2DAB1E28192E0E00FFE296 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1D28192E0E00FFE296 /* Data.swift */; };
+		2F2DAB202820BE9500FFE296 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */; };
+		2FC662EE2820EAAC0039D14A /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC662ED2820EAAC0039D14A /* Tracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		2F2DAB142817D75C00FFE296 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		2F2DAB1B28192D0E00FFE296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		2F2DAB1D28192E0E00FFE296 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		2FC662ED2820EAAC0039D14A /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				2F2DAB182817DCB500FFE296 /* Components */,
 				2F2DAAE628166EF500FFE296 /* Assets.xcassets */,
 				2F2DAAE828166EF500FFE296 /* Preview Content */,
+				2FC662ED2820EAAC0039D14A /* Tracker.swift */,
 			);
 			path = SatelliteTrackeriOSApp;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			children = (
 				2F2DAB142817D75C00FFE296 /* ListItem.swift */,
 				2F2DAB0E2817CFDA00FFE296 /* CardView.swift */,
+				2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -300,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2DAB152817D75C00FFE296 /* ListItem.swift in Sources */,
+				2F2DAB202820BE9500FFE296 /* SmallCardView.swift in Sources */,
+				2FC662EE2820EAAC0039D14A /* Tracker.swift in Sources */,
 				2F2DAB0D2817CAAD00FFE296 /* DetailView.swift in Sources */,
 				2F2DAB1C28192D0E00FFE296 /* ContentView.swift in Sources */,
 				2F2DAB132817D2CA00FFE296 /* ListView.swift in Sources */,
