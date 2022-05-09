@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F2DAAE328166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAAE228166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift */; };
+		2F2DAAE728166EF500FFE296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2DAAE628166EF500FFE296 /* Assets.xcassets */; };
+		2F2DAAEA28166EF500FFE296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2DAAE928166EF500FFE296 /* Preview Assets.xcassets */; };
+		2F2DAAF428166EF500FFE296 /* SatelliteTrackeriOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAAF328166EF500FFE296 /* SatelliteTrackeriOSAppTests.swift */; };
+		2F2DAAFE28166EF500FFE296 /* SatelliteTrackeriOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAAFD28166EF500FFE296 /* SatelliteTrackeriOSAppUITests.swift */; };
+		2F2DAB0028166EF500FFE296 /* SatelliteTrackeriOSAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAAFF28166EF500FFE296 /* SatelliteTrackeriOSAppUITestsLaunchTests.swift */; };
+		2F2DAB0D2817CAAD00FFE296 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB0C2817CAAD00FFE296 /* DetailView.swift */; };
+		2F2DAB0F2817CFDA00FFE296 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB0E2817CFDA00FFE296 /* CardView.swift */; };
+		2F2DAB112817D04900FFE296 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB102817D04900FFE296 /* HomeView.swift */; };
+		2F2DAB132817D2CA00FFE296 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB122817D2CA00FFE296 /* ListView.swift */; };
+		2F2DAB152817D75C00FFE296 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB142817D75C00FFE296 /* ListItem.swift */; };
+		2F2DAB1C28192D0E00FFE296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1B28192D0E00FFE296 /* ContentView.swift */; };
+		2F2DAB1E28192E0E00FFE296 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1D28192E0E00FFE296 /* Data.swift */; };
+		2F2DAB202820BE9500FFE296 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */; };
+		2FC662EE2820EAAC0039D14A /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC662ED2820EAAC0039D14A /* Tracker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F2DAAF028166EF500FFE296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2DAAD728166EF400FFE296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F2DAADE28166EF400FFE296;
+			remoteInfo = SatelliteTrackeriOSApp;
+		};
+		2F2DAAFA28166EF500FFE296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F2DAAD728166EF400FFE296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F2DAADE28166EF400FFE296;
+			remoteInfo = SatelliteTrackeriOSApp;
+		};
+		2FB77C4D28289E7D0008F322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8BA659991ED400D100EBFDD1;
+			remoteInfo = ZeitSatTrack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F2DAADF28166EF400FFE296 /* SatelliteTrackeriOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatelliteTrackeriOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2DAAE228166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteTrackeriOSAppApp.swift; sourceTree = "<group>"; };
+		2F2DAAE628166EF500FFE296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F2DAAE928166EF500FFE296 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F2DAAEF28166EF500FFE296 /* SatelliteTrackeriOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatelliteTrackeriOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2DAAF328166EF500FFE296 /* SatelliteTrackeriOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteTrackeriOSAppTests.swift; sourceTree = "<group>"; };
+		2F2DAAF928166EF500FFE296 /* SatelliteTrackeriOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatelliteTrackeriOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F2DAAFD28166EF500FFE296 /* SatelliteTrackeriOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteTrackeriOSAppUITests.swift; sourceTree = "<group>"; };
+		2F2DAAFF28166EF500FFE296 /* SatelliteTrackeriOSAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteTrackeriOSAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F2DAB0C2817CAAD00FFE296 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2F2DAB0E2817CFDA00FFE296 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2F2DAB102817D04900FFE296 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2F2DAB122817D2CA00FFE296 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		2F2DAB142817D75C00FFE296 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		2F2DAB1B28192D0E00FFE296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
+		2F2DAB1D28192E0E00FFE296 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZeitSatTrack.xcodeproj; path = ../ZeitSatTrack/ZeitSatTrack.xcodeproj; sourceTree = "<group>"; };
+		2FC662ED2820EAAC0039D14A /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F2DAADC28166EF400FFE296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2DAAEC28166EF500FFE296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2DAAF628166EF500FFE296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F2DAAD628166EF400FFE296 = {
+			isa = PBXGroup;
+			children = (
+				2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */,
+				2F2DAAE128166EF400FFE296 /* SatelliteTrackeriOSApp */,
+				2F2DAAF228166EF500FFE296 /* SatelliteTrackeriOSAppTests */,
+				2F2DAAFC28166EF500FFE296 /* SatelliteTrackeriOSAppUITests */,
+				2F2DAAE028166EF400FFE296 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F2DAAE028166EF400FFE296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAADF28166EF400FFE296 /* SatelliteTrackeriOSApp.app */,
+				2F2DAAEF28166EF500FFE296 /* SatelliteTrackeriOSAppTests.xctest */,
+				2F2DAAF928166EF500FFE296 /* SatelliteTrackeriOSAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F2DAAE128166EF400FFE296 /* SatelliteTrackeriOSApp */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAAE228166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift */,
+				2F2DAB1D28192E0E00FFE296 /* Data.swift */,
+				2F2DAB162817DC4D00FFE296 /* Navigation */,
+				2F2DAB172817DC6200FFE296 /* Views */,
+				2F2DAB182817DCB500FFE296 /* Components */,
+				2F2DAAE628166EF500FFE296 /* Assets.xcassets */,
+				2F2DAAE828166EF500FFE296 /* Preview Content */,
+				2FC662ED2820EAAC0039D14A /* Tracker.swift */,
+			);
+			path = SatelliteTrackeriOSApp;
+			sourceTree = "<group>";
+		};
+		2F2DAAE828166EF500FFE296 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAAE928166EF500FFE296 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F2DAAF228166EF500FFE296 /* SatelliteTrackeriOSAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAAF328166EF500FFE296 /* SatelliteTrackeriOSAppTests.swift */,
+			);
+			path = SatelliteTrackeriOSAppTests;
+			sourceTree = "<group>";
+		};
+		2F2DAAFC28166EF500FFE296 /* SatelliteTrackeriOSAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAAFD28166EF500FFE296 /* SatelliteTrackeriOSAppUITests.swift */,
+				2F2DAAFF28166EF500FFE296 /* SatelliteTrackeriOSAppUITestsLaunchTests.swift */,
+			);
+			path = SatelliteTrackeriOSAppUITests;
+			sourceTree = "<group>";
+		};
+		2F2DAB162817DC4D00FFE296 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAB1B28192D0E00FFE296 /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2F2DAB172817DC6200FFE296 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAB102817D04900FFE296 /* HomeView.swift */,
+				2F2DAB122817D2CA00FFE296 /* ListView.swift */,
+				2F2DAB0C2817CAAD00FFE296 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2DAB182817DCB500FFE296 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2F2DAB142817D75C00FFE296 /* ListItem.swift */,
+				2F2DAB0E2817CFDA00FFE296 /* CardView.swift */,
+				2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2FB77C4928289E7C0008F322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FB77C4E28289E7D0008F322 /* ZeitSatTrack.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F2DAADE28166EF400FFE296 /* SatelliteTrackeriOSApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2DAB0328166EF500FFE296 /* Build configuration list for PBXNativeTarget "SatelliteTrackeriOSApp" */;
+			buildPhases = (
+				2F2DAADB28166EF400FFE296 /* Sources */,
+				2F2DAADC28166EF400FFE296 /* Frameworks */,
+				2F2DAADD28166EF400FFE296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SatelliteTrackeriOSApp;
+			productName = SatelliteTrackeriOSApp;
+			productReference = 2F2DAADF28166EF400FFE296 /* SatelliteTrackeriOSApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F2DAAEE28166EF500FFE296 /* SatelliteTrackeriOSAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2DAB0628166EF500FFE296 /* Build configuration list for PBXNativeTarget "SatelliteTrackeriOSAppTests" */;
+			buildPhases = (
+				2F2DAAEB28166EF500FFE296 /* Sources */,
+				2F2DAAEC28166EF500FFE296 /* Frameworks */,
+				2F2DAAED28166EF500FFE296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F2DAAF128166EF500FFE296 /* PBXTargetDependency */,
+			);
+			name = SatelliteTrackeriOSAppTests;
+			productName = SatelliteTrackeriOSAppTests;
+			productReference = 2F2DAAEF28166EF500FFE296 /* SatelliteTrackeriOSAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F2DAAF828166EF500FFE296 /* SatelliteTrackeriOSAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F2DAB0928166EF500FFE296 /* Build configuration list for PBXNativeTarget "SatelliteTrackeriOSAppUITests" */;
+			buildPhases = (
+				2F2DAAF528166EF500FFE296 /* Sources */,
+				2F2DAAF628166EF500FFE296 /* Frameworks */,
+				2F2DAAF728166EF500FFE296 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F2DAAFB28166EF500FFE296 /* PBXTargetDependency */,
+			);
+			name = SatelliteTrackeriOSAppUITests;
+			productName = SatelliteTrackeriOSAppUITests;
+			productReference = 2F2DAAF928166EF500FFE296 /* SatelliteTrackeriOSAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F2DAAD728166EF400FFE296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2F2DAADE28166EF400FFE296 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					2F2DAAEE28166EF500FFE296 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2F2DAADE28166EF400FFE296;
+					};
+					2F2DAAF828166EF500FFE296 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 2F2DAADE28166EF400FFE296;
+					};
+				};
+			};
+			buildConfigurationList = 2F2DAADA28166EF400FFE296 /* Build configuration list for PBXProject "SatelliteTrackeriOSApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F2DAAD628166EF400FFE296;
+			productRefGroup = 2F2DAAE028166EF400FFE296 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2FB77C4928289E7C0008F322 /* Products */;
+					ProjectRef = 2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2F2DAADE28166EF400FFE296 /* SatelliteTrackeriOSApp */,
+				2F2DAAEE28166EF500FFE296 /* SatelliteTrackeriOSAppTests */,
+				2F2DAAF828166EF500FFE296 /* SatelliteTrackeriOSAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2FB77C4E28289E7D0008F322 /* ZeitSatTrack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZeitSatTrack.framework;
+			remoteRef = 2FB77C4D28289E7D0008F322 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F2DAADD28166EF400FFE296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2DAAEA28166EF500FFE296 /* Preview Assets.xcassets in Resources */,
+				2F2DAAE728166EF500FFE296 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2DAAED28166EF500FFE296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2DAAF728166EF500FFE296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F2DAADB28166EF400FFE296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2DAB152817D75C00FFE296 /* ListItem.swift in Sources */,
+				2F2DAB202820BE9500FFE296 /* SmallCardView.swift in Sources */,
+				2FC662EE2820EAAC0039D14A /* Tracker.swift in Sources */,
+				2F2DAB0D2817CAAD00FFE296 /* DetailView.swift in Sources */,
+				2F2DAB1C28192D0E00FFE296 /* ContentView.swift in Sources */,
+				2F2DAB132817D2CA00FFE296 /* ListView.swift in Sources */,
+				2F2DAB0F2817CFDA00FFE296 /* CardView.swift in Sources */,
+				2F2DAB112817D04900FFE296 /* HomeView.swift in Sources */,
+				2F2DAAE328166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift in Sources */,
+				2F2DAB1E28192E0E00FFE296 /* Data.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2DAAEB28166EF500FFE296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2DAAF428166EF500FFE296 /* SatelliteTrackeriOSAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F2DAAF528166EF500FFE296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F2DAAFE28166EF500FFE296 /* SatelliteTrackeriOSAppUITests.swift in Sources */,
+				2F2DAB0028166EF500FFE296 /* SatelliteTrackeriOSAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F2DAAF128166EF500FFE296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F2DAADE28166EF400FFE296 /* SatelliteTrackeriOSApp */;
+			targetProxy = 2F2DAAF028166EF500FFE296 /* PBXContainerItemProxy */;
+		};
+		2F2DAAFB28166EF500FFE296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F2DAADE28166EF400FFE296 /* SatelliteTrackeriOSApp */;
+			targetProxy = 2F2DAAFA28166EF500FFE296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F2DAB0128166EF500FFE296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F2DAB0228166EF500FFE296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F2DAB0428166EF500FFE296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SatelliteTrackeriOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QK283KHY5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F2DAB0528166EF500FFE296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SatelliteTrackeriOSApp/Preview Content\"";
+				DEVELOPMENT_TEAM = QK283KHY5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F2DAB0728166EF500FFE296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QK283KHY5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatelliteTrackeriOSApp.app/SatelliteTrackeriOSApp";
+			};
+			name = Debug;
+		};
+		2F2DAB0828166EF500FFE296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QK283KHY5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SatelliteTrackeriOSApp.app/SatelliteTrackeriOSApp";
+			};
+			name = Release;
+		};
+		2F2DAB0A28166EF500FFE296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QK283KHY5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SatelliteTrackeriOSApp;
+			};
+			name = Debug;
+		};
+		2F2DAB0B28166EF500FFE296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QK283KHY5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SatelliteTrackeriOSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F2DAADA28166EF400FFE296 /* Build configuration list for PBXProject "SatelliteTrackeriOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2DAB0128166EF500FFE296 /* Debug */,
+				2F2DAB0228166EF500FFE296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2DAB0328166EF500FFE296 /* Build configuration list for PBXNativeTarget "SatelliteTrackeriOSApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2DAB0428166EF500FFE296 /* Debug */,
+				2F2DAB0528166EF500FFE296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2DAB0628166EF500FFE296 /* Build configuration list for PBXNativeTarget "SatelliteTrackeriOSAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2DAB0728166EF500FFE296 /* Debug */,
+				2F2DAB0828166EF500FFE296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F2DAB0928166EF500FFE296 /* Build configuration list for PBXNativeTarget "SatelliteTrackeriOSAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F2DAB0A28166EF500FFE296 /* Debug */,
+				2F2DAB0B28166EF500FFE296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F2DAAD728166EF400FFE296 /* Project object */;
+}
