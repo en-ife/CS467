@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0F1111283AFB3B0064F186 /* SatelliteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0F1110283AFB3B0064F186 /* SatelliteView.swift */; };
 		2F2DAAE328166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAAE228166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift */; };
 		2F2DAAE728166EF500FFE296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2DAAE628166EF500FFE296 /* Assets.xcassets */; };
 		2F2DAAEA28166EF500FFE296 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2DAAE928166EF500FFE296 /* Preview Assets.xcassets */; };
@@ -21,6 +22,9 @@
 		2F2DAB1C28192D0E00FFE296 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1B28192D0E00FFE296 /* ContentView.swift */; };
 		2F2DAB1E28192E0E00FFE296 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1D28192E0E00FFE296 /* Data.swift */; };
 		2F2DAB202820BE9500FFE296 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */; };
+		2F38C1A2283379C8004D3F17 /* ZeitSatTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB77C4E28289E7D0008F322 /* ZeitSatTrack.framework */; platformFilter = ios; };
+		2F38C1A3283379C8004D3F17 /* ZeitSatTrack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FB77C4E28289E7D0008F322 /* ZeitSatTrack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2F49E8AB284348B9004C7561 /* Satellite.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2F49E8AA284348B9004C7561 /* Satellite.usdz */; };
 		2FC662EE2820EAAC0039D14A /* Tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC662ED2820EAAC0039D14A /* Tracker.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,13 @@
 			remoteGlobalIDString = 2F2DAADE28166EF400FFE296;
 			remoteInfo = SatelliteTrackeriOSApp;
 		};
+		2F38C19E28337945004D3F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA659981ED400D100EBFDD1;
+			remoteInfo = ZeitSatTrack;
+		};
 		2FB77C4D28289E7D0008F322 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */;
@@ -48,7 +59,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2F38C1A4283379C8004D3F17 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2F38C1A3283379C8004D3F17 /* ZeitSatTrack.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2F0F1110283AFB3B0064F186 /* SatelliteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteView.swift; sourceTree = "<group>"; };
 		2F2DAADF28166EF400FFE296 /* SatelliteTrackeriOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatelliteTrackeriOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2DAAE228166EF400FFE296 /* SatelliteTrackeriOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteTrackeriOSAppApp.swift; sourceTree = "<group>"; };
 		2F2DAAE628166EF500FFE296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +92,7 @@
 		2F2DAB1B28192D0E00FFE296 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		2F2DAB1D28192E0E00FFE296 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		2F49E8AA284348B9004C7561 /* Satellite.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Satellite.usdz; sourceTree = "<group>"; };
 		2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZeitSatTrack.xcodeproj; path = ../ZeitSatTrack/ZeitSatTrack.xcodeproj; sourceTree = "<group>"; };
 		2FC662ED2820EAAC0039D14A /* Tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F38C1A2283379C8004D3F17 /* ZeitSatTrack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,11 +126,13 @@
 		2F2DAAD628166EF400FFE296 = {
 			isa = PBXGroup;
 			children = (
+				2F49E8AA284348B9004C7561 /* Satellite.usdz */,
 				2FB77C4828289E7C0008F322 /* ZeitSatTrack.xcodeproj */,
 				2F2DAAE128166EF400FFE296 /* SatelliteTrackeriOSApp */,
 				2F2DAAF228166EF500FFE296 /* SatelliteTrackeriOSAppTests */,
 				2F2DAAFC28166EF500FFE296 /* SatelliteTrackeriOSAppUITests */,
 				2F2DAAE028166EF400FFE296 /* Products */,
+				2F38C1A1283379C8004D3F17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +200,7 @@
 				2F2DAB102817D04900FFE296 /* HomeView.swift */,
 				2F2DAB122817D2CA00FFE296 /* ListView.swift */,
 				2F2DAB0C2817CAAD00FFE296 /* DetailView.swift */,
+				2F0F1110283AFB3B0064F186 /* SatelliteView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +213,13 @@
 				2F2DAB1F2820BE9500FFE296 /* SmallCardView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		2F38C1A1283379C8004D3F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		2FB77C4928289E7C0008F322 /* Products */ = {
@@ -202,10 +240,12 @@
 				2F2DAADB28166EF400FFE296 /* Sources */,
 				2F2DAADC28166EF400FFE296 /* Frameworks */,
 				2F2DAADD28166EF400FFE296 /* Resources */,
+				2F38C1A4283379C8004D3F17 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2F38C19F28337945004D3F17 /* PBXTargetDependency */,
 			);
 			name = SatelliteTrackeriOSApp;
 			productName = SatelliteTrackeriOSApp;
@@ -313,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2DAAEA28166EF500FFE296 /* Preview Assets.xcassets in Resources */,
+				2F49E8AB284348B9004C7561 /* Satellite.usdz in Resources */,
 				2F2DAAE728166EF500FFE296 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +382,7 @@
 				2F2DAB152817D75C00FFE296 /* ListItem.swift in Sources */,
 				2F2DAB202820BE9500FFE296 /* SmallCardView.swift in Sources */,
 				2FC662EE2820EAAC0039D14A /* Tracker.swift in Sources */,
+				2F0F1111283AFB3B0064F186 /* SatelliteView.swift in Sources */,
 				2F2DAB0D2817CAAD00FFE296 /* DetailView.swift in Sources */,
 				2F2DAB1C28192D0E00FFE296 /* ContentView.swift in Sources */,
 				2F2DAB132817D2CA00FFE296 /* ListView.swift in Sources */,
@@ -380,6 +422,11 @@
 			isa = PBXTargetDependency;
 			target = 2F2DAADE28166EF400FFE296 /* SatelliteTrackeriOSApp */;
 			targetProxy = 2F2DAAFA28166EF500FFE296 /* PBXContainerItemProxy */;
+		};
+		2F38C19F28337945004D3F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZeitSatTrack;
+			targetProxy = 2F38C19E28337945004D3F17 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -488,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -509,6 +556,9 @@
 				DEVELOPMENT_TEAM = QK283KHY5D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We must camera it all";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Help user find nearest satellites.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Help user find nearest satellites.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -520,11 +570,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NSCameraUsageDescription = "Satellite Tracker needs access to the camera so that you can see the AR View with satellites";
 				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -539,6 +590,9 @@
 				DEVELOPMENT_TEAM = QK283KHY5D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We must camera it all";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Help user find nearest satellites.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Help user find nearest satellites.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -550,11 +604,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NSCameraUsageDescription = "Satellite Tracker needs access to the camera so that you can see the AR View with satellites";
 				PRODUCT_BUNDLE_IDENTIFIER = com.enkelly.SatelliteTrackeriOSApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

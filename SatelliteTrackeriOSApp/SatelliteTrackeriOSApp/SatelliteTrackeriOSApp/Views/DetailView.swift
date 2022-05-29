@@ -37,7 +37,7 @@ struct DetailView: View {
                     .font(.headline)
                 Text("Point your phone towards the direction you'd like to explore.")
                     .font(.title).bold()
-                Text("Then, pause movement of your phone. After a few seconds, Satellite Tracker will generate a list of satellites in your field of view.")
+                Text("Tap the 'Satellite AR View' tab on the bottom right. Then, pause movement of your phone. After a few seconds, Satellite Tracker will generate Augmented Reality satellites in your field of view. Their location will update every second.")
             }
             .padding()
         //.cornerRadius(30)

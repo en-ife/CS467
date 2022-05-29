@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 
 // HOME PAGE - ICONS
@@ -18,16 +19,21 @@ struct ContentView: View {
                     Image(systemName: "house")
                     Text("Home")
                 }
-            ListView()
-                .tabItem{
-                    Image(systemName: "eyes.inverse")
-                    Text("Details")
+//            ListView()
+//                .tabItem{
+//                    Image(systemName: "eyes.inverse")
+//                    Text("Details")
+//                }
+            SatelliteView()
+                .tabItem {
+                    Image(systemName: "globe")
+                    Text("Satellite AR View")
                 }
         }
     }
 }
 
-
+// ------------------------------------------------------------------------------------------------
 // UI
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

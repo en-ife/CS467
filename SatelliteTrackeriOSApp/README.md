@@ -2,8 +2,5 @@
 
 CS467 Project 
 
-This is an initial submission of my Satellite Tracking iOS app for my CS467 class. 
-At present, I've built out the basic screens / UI and tap / scroll interactions. 
-
-I pivoted to Swift only ~2 weeks ago, after I was unable to get my original plan 
-(using the Kivy framework to convert Python > Xcodeproj) to work successfully. 
+Please see attached my final CS467 project, an iOS app that will generate an augmented reality view
+indicating to users what amateur radio satellites are visible within their field of view. 

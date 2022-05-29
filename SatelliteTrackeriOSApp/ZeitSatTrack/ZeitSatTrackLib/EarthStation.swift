@@ -8,17 +8,16 @@
 import CoreLocation
 import Foundation
 
-class EarthStation {
-    var  coordinate: CLLocationCoordinate2D?
-    var  altitude: Double?
+public class EarthStation {
+    public var coordinate: CLLocationCoordinate2D?
+    public var altitude: Double?
     
-    init() {
+    public init() {
         altitude = 0.0
         coordinate = CLLocationCoordinate2DMake(0, 0)
     }
     
-    
-    func lookAngleForSatelliteAt(satelliteCoordinates: GeoCoordinates) -> LookAngle {
+    public func lookAngleForSatelliteAt(satelliteCoordinates: GeoCoordinates) -> LookAngle {
         
         var lookAngle: LookAngle
         
@@ -61,5 +60,4 @@ class EarthStation {
         lookAngle = LookAngle(azimuth: azimuth, elevation: elevation)
         return lookAngle;
     }
-    
 }

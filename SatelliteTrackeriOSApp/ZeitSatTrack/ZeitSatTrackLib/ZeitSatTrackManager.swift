@@ -253,16 +253,16 @@ open class ZeitSatTrackManager: NSObject, CLLocationManagerDelegate {
     ///   - name: the name of the satellite
     ///   - targetDate: the date for which these paramets should be calculated
     /// - Returns: A dictionary with the orbital data
-/*    open func orbitalInfoForSatelliteNamed(_ name: String, targetDate: Date? = nil) -> Dictionary<String, String>? {
+    open func orbitalInfoForSatelliteNamed(_ name: String, targetDate: Date? = nil) -> Dictionary<String, String>? {
         var rv = Dictionary<String,String>()
-//        if let satellite = self.satellites.filter({ sat in
-//            return sat.name == name
-//        }).first {
-//            rv = satellite.orbitalInfo()
-//        }
+        if let satellite = self.satellites.filter({ sat in
+            return sat.name == name
+        }).first {
+            //rv = satellite.orbitalInfo()
+        }
         return rv
     }
-*/
+
     
     
     /// for all satellites, get  current position or the position at the specifed date-time

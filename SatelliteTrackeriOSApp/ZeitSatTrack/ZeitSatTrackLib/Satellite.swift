@@ -19,8 +19,8 @@ public struct GeoCoordinates {
 }
 
 public struct LookAngle {
-    var azimuth: CLLocationDegrees
-    var elevation: CLLocationDegrees
+    public var azimuth: CLLocationDegrees
+    public var elevation: CLLocationDegrees
 }
 
 

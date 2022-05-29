@@ -4,7 +4,7 @@
 
 # Summary
 
-_ZeitSatTrack_ will provide position (lat/lon, altitude) information for satellites based on standard TLE (Two Line Element) format orbital parameter descriptions.<br>
+_ZeitSatTrack_ will provide position (lat/lon/altitude) information for satellites based on standard TLE (Two Line Element) format orbital parameter descriptions.<br>
 This library provides discrete or continuous tracking of satellites either by explicitly naming a satellite whose position is desired or by providing a list of satellites to watch.
 
 # Installation
